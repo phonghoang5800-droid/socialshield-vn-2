@@ -1,0 +1,45 @@
+{
+  "dataset_size": 28,
+  "mode": "hybrid_offline",
+  "embedding_backend": "tfidf_dense_fallback",
+  "v1_baseline": {
+    "accuracy": 0.9643,
+    "macro_f1": 0.967,
+    "scam_precision": 1.0,
+    "scam_recall": 0.9375,
+    "false_positive_rate": 0.0,
+    "latency_p50_ms": 0.75,
+    "latency_p95_ms": 1.39
+  },
+  "v2_agentic_rag": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "scam_precision": 1.0,
+    "scam_recall": 1.0,
+    "false_positive_rate": 0.0,
+    "latency_p50_ms": 1.47,
+    "latency_p95_ms": 2.3
+  },
+  "rag_retrieval": {
+    "recall_at_3": 0.8571,
+    "mrr_at_3": 0.8333,
+    "citation_grounding_rate": 1.0
+  },
+  "notable_cases": [
+    {
+      "id": "B08",
+      "difficulty": "no_url",
+      "true_label": "scam",
+      "v1_pred": "normal",
+      "v1_score": 29,
+      "v2_pred": "scam",
+      "v2_score": 78,
+      "retrieved_kb": [
+        "KB-07",
+        "KB-05",
+        "KB-04"
+      ],
+      "text_preview": "Tuyen CTV online tai nha nhan 600.000d/ngay. Nap 200.000d kich hoat nhiem vu don"
+    }
+  ]
+}

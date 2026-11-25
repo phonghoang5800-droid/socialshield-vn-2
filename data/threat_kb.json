@@ -1,0 +1,128 @@
+[
+  {
+    "id": "KB-01",
+    "category": "bank_impersonation",
+    "title": "Thủ đoạn mạo danh ngân hàng khóa tài khoản & đánh cắp OTP",
+    "source": "Cảnh báo NCSC & Hiệp hội Ngân hàng Việt Nam",
+    "content": "Kẻ gian giả mạo SMS Brandname hoặc gửi tin nhắn/Zalo thông báo tài khoản Internet Banking sắp bị khóa trong 24 giờ, phát sinh giao dịch lạ hoặc cần cập nhật sinh trắc học/CCCD. Tin nhắn luôn kèm đường link giả mạo tên miền gần giống ngân hàng (ví dụ chứa từ khóa verify, login, secure, update, -vn, .top, .xyz) để dụ nạn nhân nhập tên đăng nhập, mật khẩu và mã OTP. Ngân hàng chính thức KHÔNG BAO GIỜ gửi link yêu cầu nhập mật khẩu hoặc mã OTP qua SMS/Zalo.",
+    "official_channels": "Vietcombank: 1900 5454 13 (vietcombank.com.vn); BIDV: 1900 9247 (bidv.com.vn); Techcombank: 1800 588822 (techcombank.com); MB Bank: 1900 5454 26 (mbbank.com.vn); VietinBank: 1900 558868 (vietinbank.vn).",
+    "tags": ["ngân hàng", "vcb", "vietcombank", "bidv", "techcombank", "mb", "otp", "khóa tài khoản", "xác minh"]
+  },
+  {
+    "id": "KB-02",
+    "category": "ewallet_impersonation",
+    "title": "Thủ đoạn mạo danh ví điện tử MoMo, ZaloPay, VNPAY",
+    "source": "Trung tâm An toàn Thông tin & Khuyến cáo Ví điện tử",
+    "content": "Đối tượng mạo danh nhân viên CSKH ví điện tử (MoMo, ZaloPay, VNPAY, Viettel Money) thông báo trúng thưởng, hoàn tiền, nâng hạn mức ví trả sau, hoặc cảnh báo ví bị khóa/liên kết ngân hàng lỗi. Kẻ gian yêu cầu truy cập link lạ, cung cấp mã OTP, mật khẩu 6 số hoặc quét mã QR nhận tiền giả để chiếm đoạt quyền kiểm soát ví. Ví điện tử chính thức không bao giờ yêu cầu cung cấp OTP hoặc mật khẩu qua tin nhắn hay cuộc gọi.",
+    "official_channels": "MoMo: 1900 5454 41 (momo.vn); ZaloPay: 1900 5454 36 (zalopay.vn); VNPAY: 1900 5555 77 (vnpay.vn); Viettel Money: 1800 9000.",
+    "tags": ["momo", "zalopay", "vnpay", "viettel money", "ví điện tử", "ví trả sau", "otp", "trúng thưởng"]
+  },
+  {
+    "id": "KB-03",
+    "category": "gov_impersonation",
+    "title": "Mạo danh Công an, VNeID, Thuế, Bảo hiểm xã hội cài ứng dụng .APK",
+    "source": "Cổng thông tin Bộ Công an & NCSC Việt Nam",
+    "content": "Kẻ gian giả danh Công an, Cảnh sát giao thông (CSGT), Tổng cục Thuế hoặc BHXH thông báo phạt nguội, hoàn thuế, đồng bộ định danh VNeID mức 2 hoặc đe dọa liên quan vụ án. Kẻ gian gửi link tải file cài đặt Android (.apk) ngoài Google Play hoặc gọi video yêu cầu cấp quyền Trợ năng (Accessibility Service). Khi cài app giả, mã độc chiếm quyền điều khiển điện thoại, đọc trộm SMS OTP và rút sạch tiền tài khoản ngân hàng. Cơ quan nhà nước chỉ dùng tên miền .gov.vn và KHÔNG làm việc hay gửi file .apk qua Zalo/SMS.",
+    "official_channels": "Tên miền chính thức duy nhất đuôi .gov.vn (dichvucong.gov.vn, gdt.gov.vn, csgt.vn); Cổng cảnh báo ATTT: canhbao.ncsc.gov.vn; Đường dây nóng Bộ Công an: 069.234.8560.",
+    "tags": ["vneid", "công an", "csgt", "phạt nguội", "thuế", "hoàn thuế", "apk", "cài app", "định danh", "bhxh"]
+  },
+  {
+    "id": "KB-04",
+    "category": "delivery_impersonation",
+    "title": "Giả mạo shipper, GHN, GHTK, Viettel Post thu phí lưu kho / COD",
+    "source": "Cảnh báo NCSC & Doanh nghiệp Chuyển phát",
+    "content": "Tin nhắn hoặc cuộc gọi mạo danh nhân viên giao hàng (GHN, GHTK, Viettel Post, Vietnam Post, J&T) báo đơn hàng giao thất bại, thiếu địa chỉ, hoặc cần thanh toán phí lưu kho/hải quan nhỏ (10.000–50.000đ) qua đường link lạ hoặc chuyển khoản trước vào tài khoản cá nhân, sau đó dẫn dụ đăng ký hủy gói hội viên để chiếm đoạt tiền lớn. Người dùng chỉ kiểm tra tình trạng đơn trực tiếp trong ứng dụng thương mại điện tử chính thức.",
+    "official_channels": "GHN: 1900 636677 (ghn.vn); GHTK: 1900 6092 (giaohangtietkiem.vn); Viettel Post: 1900 8095 (viettelpost.com.vn).",
+    "tags": ["shipper", "giao hàng", "ghn", "ghtk", "viettel post", "cod", "phí lưu kho", "bưu cục", "đơn hàng"]
+  },
+  {
+    "id": "KB-05",
+    "category": "ecommerce_impersonation",
+    "title": "Lừa đảo mạo danh Shopee, Lazada, TikTok Shop tặng quà / điểm thưởng sắp hết hạn",
+    "source": "Cảnh báo Lừa đảo Thương mại Điện tử Việt Nam",
+    "content": "Tin nhắn thông báo điểm thưởng/voucher sắp hết hạn trong 24h, trúng iPhone hoặc hoàn tiền đơn hàng, yêu cầu bấm vào tên miền giả mạo có chứa từ khóa thương hiệu (ví dụ shopee-gift, lazada-verify, tiktok-reward). Mục đích là thu thập thông tin đăng nhập, thẻ ngân hàng hoặc dụ nạp tiền làm nhiệm vụ nhận hoa hồng.",
+    "official_channels": "Chỉ thao tác trực tiếp trên ứng dụng chính thức Shopee, Lazada, Tiki, TikTok Shop tải từ App Store / Google Play.",
+    "tags": ["shopee", "lazada", "tiki", "tiktok", "voucher", "điểm thưởng", "trúng thưởng", "hoàn tiền", "quà tặng"]
+  },
+  {
+    "id": "KB-06",
+    "category": "loan_investment_scam",
+    "title": "Lừa đảo cho vay siêu tốc không cần chứng minh thu nhập & đầu tư lãi suất cao",
+    "source": "Cảnh báo Cục An ninh mạng (A05) & NCSC",
+    "content": "Quảng cáo duyệt vay 30–100 triệu nhanh trong ngày không cần thẩm định nhưng yêu cầu đóng trước 'phí hồ sơ', 'phí bảo hiểm khoản vay' hoặc 'tiền chứng minh tài chính để mở khóa giải ngân'. Hoặc mời gọi vào nhóm Telegram/Zalo đầu tư chứng khoán, tiền ảo, ngoại hối cam kết lợi nhuận 15–30%/tháng. Mọi tổ chức tín dụng hợp pháp KHÔNG yêu cầu chuyển tiền trước vào tài khoản cá nhân để giải ngân.",
+    "official_channels": "Chỉ vay tại ngân hàng và công ty tài chính được NHNN cấp phép (sbv.gov.vn).",
+    "tags": ["vay tiền", "giải ngân", "phí hồ sơ", "duyệt vay", "đầu tư", "lãi suất", "chứng khoán", "crypto", "telegram"]
+  },
+  {
+    "id": "KB-07",
+    "category": "job_task_scam",
+    "title": "Lừa đảo tuyển CTV online, làm nhiệm vụ like/đơn hàng ảo nhận hoa hồng",
+    "source": "Cảnh báo Bộ Công an về Lừa đảo Việc làm Online",
+    "content": "Chiêu trò tuyển cộng tác viên làm việc tại nhà thu nhập 500.000–2.000.000đ/ngày, việc nhẹ lương cao (like video, đặt đơn hàng ảo, đánh giá sản phẩm). Ban đầu kẻ gian trả hoa hồng nhỏ 50.000–200.000đ để tạo lòng tin, sau đó yêu cầu nạp tiền làm nhiệm vụ giá trị ngày càng lớn rồi báo 'sai cú pháp/đóng băng tài khoản' để chiếm đoạt toàn bộ tiền nạp.",
+    "official_channels": "Không chuyển tiền nạp để nhận việc làm hoặc hoa hồng; báo ngay cho công an địa phương nếu đã chuyển tiền.",
+    "tags": ["tuyển ctv", "việc làm online", "nhiệm vụ", "hoa hồng", "nạp tiền", "kích hoạt", "thu nhập"]
+  },
+  {
+    "id": "KB-08",
+    "category": "fake_bill_visual",
+    "title": "Dấu hiệu nhận diện ảnh chụp bill chuyển khoản giả & ảnh tin nhắn giả mạo",
+    "source": "Hướng dẫn Xác minh Giao dịch An toàn (VLM Visual Checks)",
+    "content": "Các dấu hiệu thường gặp của ảnh bill chuyển khoản ngân hàng/ví điện tử giả: phông chữ số tiền không đồng nhất hoặc lệch hàng, dấu phân cách hàng nghìn sai chuẩn, thời gian giao dịch không khớp giờ thực tế, màu nền/logo ngân hàng nhòe hoặc bị cắt ghép, trạng thái 'chuyển tiền thành công' nhưng tài khoản người nhận chưa biến động số dư. Nguyên tắc tuyệt đối: CHỈ xác nhận đã nhận tiền khi kiểm tra biến động số dư trực tiếp trong ứng dụng ngân hàng/ví điện tử chính thức, KHÔNG tin vào ảnh chụp bill.",
+    "official_channels": "Kiểm tra trực tiếp lịch sử giao dịch trong ứng dụng ngân hàng/ví của bạn trước khi giao hàng hoặc hoàn tiền.",
+    "tags": ["bill giả", "chuyển khoản", "ảnh chụp", "biên lai", "xác nhận giao dịch", "qr", "screenshot"]
+  },
+  {
+    "id": "KB-09",
+    "category": "obfuscation_evasion",
+    "title": "Kỹ thuật né bộ lọc trong SMS tiếng Việt (không dấu, giãn chữ, viết tắt, hxxp)",
+    "source": "Tài liệu Kỹ thuật SocialShield-VN & NCSC",
+    "content": "Kẻ lừa đảo tiếng Việt thường viết không dấu ('tai khoan bi khoa, xac minh ngay'), chèn khoảng trắng bất thường ('T a i  k h o a n'), dùng ký tự thay thế (hxxp, số 0 thay chữ O, dấu chấm lạ) hoặc viết tắt ('tk', 'nh', 'ck', 'xm') để vượt qua bộ lọc từ khóa đơn giản của nhà mạng. Khi đánh giá tin nhắn ngắn bị viết méo chữ đi kèm áp lực thời gian hoặc yêu cầu OTP/tiền, cần xếp vào nhóm rủi ro cao.",
+    "official_channels": "Hệ thống phân tích cần chuẩn hóa bỏ dấu, gom khoảng trắng và phân tích ngữ cảnh thay vì chỉ khớp từ khóa cứng.",
+    "tags": ["không dấu", "viết tắt", "giãn chữ", "né lọc", "obfuscation", "tk", "ck"]
+  },
+  {
+    "id": "KB-10",
+    "category": "legitimate_reference",
+    "title": "Phân biệt thông báo OTP / cảnh báo chính thống của ngân hàng và ví điện tử",
+    "source": "Hướng dẫn Giảm Cảnh báo Giả (False Positive Reduction)",
+    "content": "Tin nhắn OTP chính thống từ ngân hàng hoặc MoMo thường chỉ chứa mã số xác thực giao dịch do chính bạn vừa chủ động thao tác, kèm lời nhắc bảo vệ rõ ràng ('KHONG chia se ma OTP cho bat ky ai', 'Ngan hang khong bao gio yeu cau cung cap OTP'), KHÔNG chứa đường link đăng nhập lạ, KHÔNG đe dọa khóa tài khoản trong 24h và KHÔNG yêu cầu gọi số di động cá nhân hay cài app lạ. Tin nhắn gia đình, lịch họp, thông báo khuyến mãi chính hãng không gắn link giả mạo được xếp mức rủi ro thấp.",
+    "official_channels": "Nếu nhận được mã OTP khi bạn KHÔNG thực hiện giao dịch, tuyệt đối không đọc mã cho ai và đổi mật khẩu ứng dụng ngay.",
+    "tags": ["an toàn", "chính thống", "otp thật", "nhắc nhở", "không cung cấp otp", "tin nhắn thường", "quảng cáo"]
+  },
+  {
+    "id": "KB-11",
+    "category": "response_not_clicked",
+    "title": "Hướng dẫn xử lý khi CHƯA bấm link / chưa cung cấp thông tin",
+    "source": "Quy trình Ứng phó Sự cố An toàn Thông tin Cá nhân",
+    "content": "Khi chưa bấm link và chưa gửi thông tin nhạy cảm: (1) Tuyệt đối không bấm đường link, không quét QR và không trả lời tin nhắn; (2) Chặn số điện thoại/tài khoản gửi; (3) Nếu cần kiểm tra tình trạng tài khoản/đơn hàng, tự mở ứng dụng chính thức hoặc gọi tổng đài chính thức in trên thẻ; (4) Chụp màn hình tin nhắn và gửi phản ánh tới đầu số 156 (miễn phí) hoặc canhbao.ncsc.gov.vn.",
+    "official_channels": "Đầu số phản ánh tin nhắn/cuộc gọi rác & lừa đảo toàn quốc: 156 (hoặc 5656); canhbao.ncsc.gov.vn.",
+    "tags": ["chưa bấm link", "xử lý", "phản ánh", "156", "chặn số"]
+  },
+  {
+    "id": "KB-12",
+    "category": "response_clicked_or_otp",
+    "title": "Hướng dẫn xử lý khẩn cấp khi ĐÃ BẤM LINK hoặc ĐÃ NHẬP OTP / MẬT KHẨU",
+    "source": "Quy trình Ứng phó Khẩn cấp Ngân hàng & NCSC",
+    "content": "Hành động ngay trong 5 phút đầu: (1) Gọi ngay tổng đài chính thức của ngân hàng/ví điện tử (ví dụ MoMo 1900 5454 41, VCB 1900 5454 13) để KHÓA TẠM THỜI tài khoản và thẻ; (2) Đổi ngay mật khẩu ngân hàng, ví điện tử và email liên kết trên một thiết bị sạch khác; (3) Đăng xuất toàn bộ thiết bị lạ trong phần quản lý phiên đăng nhập; (4) Lưu giữ ảnh chụp màn hình, đường link, số điện thoại để làm bằng chứng.",
+    "official_channels": "Liên hệ tổng đài chính thức in mặt sau thẻ ngân hàng hoặc trên trang chủ .vn/.gov.vn.",
+    "tags": ["đã bấm link", "đã nhập otp", "đã gửi thông tin", "khóa thẻ", "đổi mật khẩu", "khẩn cấp"]
+  },
+  {
+    "id": "KB-13",
+    "category": "response_transferred_money",
+    "title": "Hướng dẫn xử lý khẩn cấp khi ĐÃ CHUYỂN TIỀN cho đối tượng lừa đảo",
+    "source": "Quy trình Trình báo Công an & Tra soát Ngân hàng",
+    "content": "Khi đã chuyển tiền: (1) Gọi ngay tổng đài ngân hàng/ví điện tử của bạn để yêu cầu hỗ trợ tra soát khẩn cấp và ghi nhận giao dịch nghi gian lận; (2) Không chuyển thêm bất kỳ khoản nào để 'lấy lại tiền' (đây là bẫy lừa đảo vòng 2); (3) Lưu đầy đủ bằng chứng: sao kê giao dịch, số tài khoản/tên người nhận, nội dung chat, số điện thoại; (4) Trình báo trực tiếp tại Công an phường/xã gần nhất hoặc qua ứng dụng VNeID / Cổng dịch vụ công Bộ Công an.",
+    "official_channels": "Công an phường/xã gần nhất; Đường dây nóng Cục CSHS / A05 Bộ Công an: 069.234.8560.",
+    "tags": ["đã chuyển tiền", "tra soát", "trình báo công an", "lừa đảo vòng 2", "bằng chứng"]
+  },
+  {
+    "id": "KB-14",
+    "category": "response_installed_apk",
+    "title": "Hướng dẫn xử lý khẩn cấp khi ĐÃ CÀI ỨNG DỤNG LẠ (.APK)",
+    "source": "Cảnh báo Mã độc Android — NCSC Việt Nam",
+    "content": "Khi lỡ cài file .apk lạ trên Android: (1) NGẮT NGAY Wi-Fi và dữ liệu di động (4G/5G) hoặc bật Chế độ máy bay để cắt kết nối điều khiển từ xa của mã độc; (2) Dùng một điện thoại KHÁC gọi ngay ngân hàng/ví điện tử khóa tạm thời tài khoản và thẻ; (3) Gỡ ứng dụng lạ trong Chế độ an toàn (Safe Mode) hoặc tốt nhất là Sao lưu ảnh/danh bạ quan trọng rồi Khôi phục cài đặt gốc (Factory Reset) máy; (4) Sau khi máy sạch mới đổi lại toàn bộ mật khẩu tài chính.",
+    "official_channels": "Ngắt mạng trước, gọi tổng đài ngân hàng bằng thiết bị khác, sau đó Factory Reset thiết bị nhiễm mã độc.",
+    "tags": ["đã cài app lạ", "apk", "mã độc", "ngắt mạng", "chế độ máy bay", "factory reset", "accessibility"]
+  }
+]
